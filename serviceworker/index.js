@@ -1,10 +1,10 @@
 var CACHE_NAME = "my-site-cache-v1"; // 캐시 storage의 key 값이 됩니다.
 var urlsToCache = [
   // 저장할 정적 파일들의 경로들을 문자열로 갖는 배열입니다.
-  "/",
-  "/styles/main.css",
-  "/script/main.js",
-  "/script/main2.js",
+  "./",
+  "./styles/main.css",
+  "./script/main.js",
+  "./script/main2.js",
 ];
 
 self.addEventListener("install", function (event) {
