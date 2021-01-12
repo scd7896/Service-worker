@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 8080"
+    "start": "http-server -p 8080",
+    "prod": "webpack --mode=production --env=production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.1-security",
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "webpack": "^5.13.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
   }
 }
